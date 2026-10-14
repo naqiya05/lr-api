@@ -1,0 +1,8 @@
+name: lr-api
+services:
+  api:
+    image: naqiyaezzy/lr-api:v1
+    container_name: lr-api
+    ports:
+      - "5000:5000"
+    restart: unless-stopped
